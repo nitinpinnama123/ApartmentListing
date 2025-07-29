@@ -10,7 +10,11 @@ const DATA = [
     location: 'New York', 
     description: 'This luxury apartment offers stunning panoramic views of the New York skyline. It features modern amenities, including a fully equipped kitchen and spacious living areas. Ideal for anyone looking to enjoy the best of city living.', 
     bedrooms: 3, 
-    bathrooms: 2, 
+    bathrooms: 2,
+    yearBuilt: 2015, // Year the property was built
+    squareFootage: '1,800 sqft', // Square footage
+    amenities: "Gym, Concierge Service, Rooftop Pool", // Amenities
+    parking: '2 car garage', // Parking availability
     images: [
       'https://cdn.pixabay.com/photo/2023/01/10/20/56/nyc-7710506_1280.jpg',
       'https://cdn.pixabay.com/photo/2016/11/22/23/38/apartment-1851201_1280.jpg',
@@ -24,7 +28,11 @@ const DATA = [
     location: 'Miami', 
     description: 'A beautiful beachfront house located just steps away from the ocean. With direct access to the beach, this property offers a perfect escape. The expansive deck is ideal for entertaining and enjoying sunset views.', 
     bedrooms: 4, 
-    bathrooms: 3, 
+    bathrooms: 3,
+    yearBuilt: 2008, // Year the property was built
+    squareFootage: '2,500 sqft', // Square footage
+    amenities: "Beach Access, Outdoor Shower, Private Dock", // Amenities
+    parking: '3-car driveway', // Parking availability 
     images: [
       'https://images.unsplash.com/photo-1708149564414-0ea643c6c902?q=80&w=1971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       'https://images.unsplash.com/photo-1721369483526-62f48a00b949?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -38,7 +46,11 @@ const DATA = [
     location: 'Los Angeles', 
     description: 'A charming villa located in a peaceful suburban neighborhood. This property features a spacious garden, perfect for outdoor activities, and a welcoming interior with modern finishes. Ideal for families seeking comfort and style.', 
     bedrooms: 5, 
-    bathrooms: 4, 
+    bathrooms: 4,
+    yearBuilt: 2005, // Year the property was built
+    squareFootage: '3,200 sqft', // Square footage
+    amenities: "private or shared pools, fitness centers, and outdoor spaces like patios or gardens", // Amenities
+    parking: '3-car driveway',
     images: [
       'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       'https://images.unsplash.com/photo-1628870776167-b4b684441e10?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',

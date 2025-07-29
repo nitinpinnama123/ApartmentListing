@@ -66,6 +66,10 @@ const ApartmentDetails = ({ data }) => {
           <Text style={styles.details}>
             {item.bedrooms} Beds • {item.bathrooms} Baths
           </Text>
+           <Text style={styles.description}>Built-in year is <Text style={styles.location}>{item.yearBuilt}</Text></Text>
+          <Text style={styles.description}>Covered Area is <Text style={styles.location}>{item.squareFootage}</Text></Text>
+          <Text style={styles.description}>It includes {item.amenities}</Text>
+          <Text style={styles.description}>It has {item.parking} parking facility</Text>
           <View testID="imageDisplay" style={styles.imageDisplay}>
             <CustomCarousel images={item.images} />
           </View>
